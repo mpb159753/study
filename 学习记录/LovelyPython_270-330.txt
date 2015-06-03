@@ -1,0 +1,8 @@
+模块    fnmatch
+    fnmatch 实现看 shell patterns 表匹配字符串或文件名
+    translate(pat)将 pat 转化为正则表达式。
+    示例：
+        >>>import fnmatch
+        >>>fnmatch.translate('*.py')
+        '.*\\.py\\Z(?ms)'
+
